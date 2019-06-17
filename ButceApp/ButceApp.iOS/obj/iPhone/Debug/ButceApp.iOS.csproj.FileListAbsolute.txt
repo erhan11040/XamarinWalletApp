@@ -1,0 +1,7 @@
+C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.iOS\obj\iPhone\Debug\optimized\
+C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.iOS\obj\iPhone\Debug\ButceApp.iOS.csproj.CoreCompileInputs.cache
