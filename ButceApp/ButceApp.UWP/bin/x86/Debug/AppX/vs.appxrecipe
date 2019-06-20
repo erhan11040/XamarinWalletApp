@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=360b3198-a089-42ed-8955-12353ca70d33</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>33FE5EB634442EBC54679F89E4A26F86FA3F53FEE2DE37B2A3AE657D687F98C8</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>f215f236-a83f-41ff-b5a8-f2e31e3849d3_1.0.0.0_x86__3ymaxvw7rh3h6</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>f215f236-a83f-41ff-b5a8-f2e31e3849d3_3ymaxvw7rh3h6!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-06-14T12:50:13.507</Modified>
+      <Modified>2019-06-20T14:44:01.132</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\bin\x86\Debug\ButceApp.UWP.exe">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\bin\x86\Debug\ButceApp.UWP.exe">
       <PackagePath>entrypoint\ButceApp.UWP.exe</PackagePath>
-      <Modified>2019-06-14T12:50:10.352</Modified>
+      <Modified>2019-06-20T14:43:59.170</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erhan.okumus\.nuget\packages\oxyplot.core\1.0.0\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1+Xamarin.iOS10\OxyPlot.dll">
       <PackagePath>OxyPlot.dll</PackagePath>
@@ -53,6 +53,14 @@
     <AppxPackagedFile Include="C:\Users\erhan.okumus\.nuget\packages\oxyplot.xamarin.forms\1.0.0\lib\uap10.0\OxyPlot.Xamarin.Forms.dll">
       <PackagePath>OxyPlot.Xamarin.Forms.dll</PackagePath>
       <Modified>2017-01-07T20:13:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\erhan.okumus\.nuget\packages\plugin.sqliteconnection\1.0.0\lib\UAP10\Plugin.SQLiteConnection.Abstractions.dll">
+      <PackagePath>Plugin.SQLiteConnection.Abstractions.dll</PackagePath>
+      <Modified>2016-07-01T14:38:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\erhan.okumus\.nuget\packages\plugin.sqliteconnection\1.0.0\lib\UAP10\Plugin.SQLiteConnection.dll">
+      <PackagePath>Plugin.SQLiteConnection.dll</PackagePath>
+      <Modified>2016-07-01T14:38:04.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erhan.okumus\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.9\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -710,6 +718,14 @@
       <PackagePath>netstandard.dll</PackagePath>
       <Modified>2018-10-04T10:37:40.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\erhan.okumus\.nuget\packages\sqlite-net-pcl\1.1.1\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+      <Modified>1979-12-31T22:00:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\erhan.okumus\.nuget\packages\sqlitepcl.raw\0.8.6\lib\uap10.0\SQLitePCL.raw.dll">
+      <PackagePath>SQLitePCL.raw.dll</PackagePath>
+      <Modified>2016-01-08T06:48:48.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erhan.okumus\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2016-11-29T23:58:38.000</Modified>
@@ -734,172 +750,176 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2019-05-11T16:47:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp\bin\Debug\netstandard2.0\ButceApp.dll">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp\bin\Debug\netstandard2.0\ButceApp.dll">
       <PackagePath>ButceApp.dll</PackagePath>
-      <Modified>2019-06-14T12:50:03.392</Modified>
+      <Modified>2019-06-20T14:50:25.079</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erhan.okumus\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
       <Modified>2016-11-29T23:58:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2019-06-14T06:18:32.408</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.035</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.076</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.079</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.080</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.082</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.125</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.129</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.131</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.134</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.177</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.179</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.181</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.183</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.226</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.228</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.230</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.231</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.272</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.274</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.275</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.277</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.319</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.320</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.324</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.362</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.364</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T06:18:32.365</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\xamarin_logo.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\xamarin_logo.png">
       <PackagePath>xamarin_logo.png</PackagePath>
       <Modified>2019-06-14T06:18:32.855</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\add.png">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\add.png">
       <PackagePath>add.png</PackagePath>
       <Modified>2019-06-14T06:18:32.805</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\bin\x86\Debug\ButceApp.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\erhan.okumus\.nuget\packages\sqlitepcl.raw\0.8.6\build\native\sqlite3_dynamic\v140\x86\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+      <Modified>2016-01-08T06:48:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\bin\x86\Debug\ButceApp.UWP.xr.xml">
       <PackagePath>ButceApp.UWP.xr.xml</PackagePath>
       <Modified>2019-06-14T10:13:58.467</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-06-14T12:50:10.111</Modified>
+      <Modified>2019-06-20T14:43:59.026</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-06-14T12:50:10.112</Modified>
+      <Modified>2019-06-20T14:43:59.026</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -917,13 +937,13 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2019-05-11T16:47:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-06-14T11:12:51.056</Modified>
+      <Modified>2019-06-20T14:20:29.684</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\ButceApp\ButceApp\ButceApp\ButceApp.UWP\bin\x86\Debug\Core\ButceApp.UWP.exe">
+    <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\bin\x86\Debug\Core\ButceApp.UWP.exe">
       <PackagePath>ButceApp.UWP.exe</PackagePath>
-      <Modified>2019-06-14T12:50:13.497</Modified>
+      <Modified>2019-06-20T14:44:01.125</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

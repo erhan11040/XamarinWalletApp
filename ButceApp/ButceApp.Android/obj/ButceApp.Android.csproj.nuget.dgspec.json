@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\ButceApp\\ButceApp\\ButceApp\\ButceApp.Android\\ButceApp.Android.csproj": {}
+    "C:\\Projects\\XamarinWalletApp\\ButceApp\\ButceApp.Android\\ButceApp.Android.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\ButceApp\\ButceApp\\ButceApp\\ButceApp.Android\\ButceApp.Android.csproj": {
+    "C:\\Projects\\XamarinWalletApp\\ButceApp\\ButceApp.Android\\ButceApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ButceApp\\ButceApp\\ButceApp\\ButceApp.Android\\ButceApp.Android.csproj",
+        "projectUniqueName": "C:\\Projects\\XamarinWalletApp\\ButceApp\\ButceApp.Android\\ButceApp.Android.csproj",
         "projectName": "ButceApp.Android",
-        "projectPath": "C:\\Projects\\ButceApp\\ButceApp\\ButceApp\\ButceApp.Android\\ButceApp.Android.csproj",
+        "projectPath": "C:\\Projects\\XamarinWalletApp\\ButceApp\\ButceApp.Android\\ButceApp.Android.csproj",
         "packagesPath": "C:\\Users\\erhan.okumus\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ButceApp\\ButceApp\\ButceApp\\ButceApp.Android\\obj\\",
+        "outputPath": "C:\\Projects\\XamarinWalletApp\\ButceApp\\ButceApp.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Projects\\ButceApp\\ButceApp\\ButceApp\\ButceApp\\ButceApp.csproj": {
-                "projectPath": "C:\\Projects\\ButceApp\\ButceApp\\ButceApp\\ButceApp\\ButceApp.csproj"
+              "C:\\Projects\\XamarinWalletApp\\ButceApp\\ButceApp\\ButceApp.csproj": {
+                "projectPath": "C:\\Projects\\XamarinWalletApp\\ButceApp\\ButceApp\\ButceApp.csproj"
               }
             }
           }
@@ -43,6 +43,10 @@
         "monoandroid90": {
           "dependencies": {
             "OxyPlot.Xamarin.Forms": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Plugin.SQLiteConnection": {
               "target": "Package",
               "version": "[1.0.0, )"
             },
@@ -86,14 +90,14 @@
         }
       }
     },
-    "C:\\Projects\\ButceApp\\ButceApp\\ButceApp\\ButceApp\\ButceApp.csproj": {
+    "C:\\Projects\\XamarinWalletApp\\ButceApp\\ButceApp\\ButceApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ButceApp\\ButceApp\\ButceApp\\ButceApp\\ButceApp.csproj",
+        "projectUniqueName": "C:\\Projects\\XamarinWalletApp\\ButceApp\\ButceApp\\ButceApp.csproj",
         "projectName": "ButceApp",
-        "projectPath": "C:\\Projects\\ButceApp\\ButceApp\\ButceApp\\ButceApp\\ButceApp.csproj",
+        "projectPath": "C:\\Projects\\XamarinWalletApp\\ButceApp\\ButceApp\\ButceApp.csproj",
         "packagesPath": "C:\\Users\\erhan.okumus\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ButceApp\\ButceApp\\ButceApp\\ButceApp\\obj\\",
+        "outputPath": "C:\\Projects\\XamarinWalletApp\\ButceApp\\ButceApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -135,13 +139,17 @@
               "target": "Package",
               "version": "[1.0.0, )"
             },
+            "Plugin.SQLiteConnection": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.1.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.0.0.425677, )"
+              "version": "[4.0.0.497661, )"
             }
           },
           "imports": [

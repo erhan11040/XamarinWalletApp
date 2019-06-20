@@ -38,6 +38,47 @@
           "lib/Xamarin.iOS10/OxyPlot.Xamarin.iOS.dll": {}
         }
       },
+      "Plugin.SQLiteConnection/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "sqlite-net-pcl": "1.1.1"
+        },
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.SQLiteConnection.Abstractions.dll": {},
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.SQLiteConnection.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.SQLiteConnection.Abstractions.dll": {},
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.SQLiteConnection.dll": {}
+        }
+      },
+      "sqlite-net-pcl/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCL.raw": "0.8.6"
+        },
+        "compile": {
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCL.raw/0.8.6": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/_._": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/_._": {}
+        },
+        "build": {
+          "build/Xamarin.iOS10/SQLitePCL.raw.targets": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -190,8 +231,9 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "OxyPlot.Xamarin.Forms": "1.0.0",
+          "Plugin.SQLiteConnection": "1.0.0",
           "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "4.0.0.425677"
+          "Xamarin.Forms": "4.0.0.497661"
         },
         "compile": {
           "bin/placeholder/ButceApp.dll": {}
@@ -238,6 +280,47 @@
           "lib/Xamarin.iOS10/OxyPlot.Xamarin.iOS.dll": {}
         }
       },
+      "Plugin.SQLiteConnection/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "sqlite-net-pcl": "1.1.1"
+        },
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.SQLiteConnection.Abstractions.dll": {},
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.SQLiteConnection.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.SQLiteConnection.Abstractions.dll": {},
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.SQLiteConnection.dll": {}
+        }
+      },
+      "sqlite-net-pcl/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCL.raw": "0.8.6"
+        },
+        "compile": {
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCL.raw/0.8.6": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/_._": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/_._": {}
+        },
+        "build": {
+          "build/Xamarin.iOS10/SQLitePCL.raw.targets": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -390,8 +473,9 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "OxyPlot.Xamarin.Forms": "1.0.0",
+          "Plugin.SQLiteConnection": "1.0.0",
           "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "4.0.0.425677"
+          "Xamarin.Forms": "4.0.0.497661"
         },
         "compile": {
           "bin/placeholder/ButceApp.dll": {}
@@ -438,6 +522,47 @@
           "lib/Xamarin.iOS10/OxyPlot.Xamarin.iOS.dll": {}
         }
       },
+      "Plugin.SQLiteConnection/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "sqlite-net-pcl": "1.1.1"
+        },
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.SQLiteConnection.Abstractions.dll": {},
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.SQLiteConnection.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.SQLiteConnection.Abstractions.dll": {},
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.SQLiteConnection.dll": {}
+        }
+      },
+      "sqlite-net-pcl/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCL.raw": "0.8.6"
+        },
+        "compile": {
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCL.raw/0.8.6": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/_._": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/_._": {}
+        },
+        "build": {
+          "build/Xamarin.iOS10/SQLitePCL.raw.targets": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -590,8 +715,9 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "OxyPlot.Xamarin.Forms": "1.0.0",
+          "Plugin.SQLiteConnection": "1.0.0",
           "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "4.0.0.425677"
+          "Xamarin.Forms": "4.0.0.497661"
         },
         "compile": {
           "bin/placeholder/ButceApp.dll": {}
@@ -638,6 +764,47 @@
           "lib/Xamarin.iOS10/OxyPlot.Xamarin.iOS.dll": {}
         }
       },
+      "Plugin.SQLiteConnection/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "sqlite-net-pcl": "1.1.1"
+        },
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.SQLiteConnection.Abstractions.dll": {},
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.SQLiteConnection.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.SQLiteConnection.Abstractions.dll": {},
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.SQLiteConnection.dll": {}
+        }
+      },
+      "sqlite-net-pcl/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCL.raw": "0.8.6"
+        },
+        "compile": {
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCL.raw/0.8.6": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/_._": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/_._": {}
+        },
+        "build": {
+          "build/Xamarin.iOS10/SQLitePCL.raw.targets": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -790,8 +957,9 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "OxyPlot.Xamarin.Forms": "1.0.0",
+          "Plugin.SQLiteConnection": "1.0.0",
           "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "4.0.0.425677"
+          "Xamarin.Forms": "4.0.0.497661"
         },
         "compile": {
           "bin/placeholder/ButceApp.dll": {}
@@ -893,6 +1061,156 @@
         "lib/Xamarin.iOS10/OxyPlot.Xamarin.iOS.xml",
         "oxyplot.xamarin.ios.1.0.0.nupkg.sha512",
         "oxyplot.xamarin.ios.nuspec"
+      ]
+    },
+    "Plugin.SQLiteConnection/1.0.0": {
+      "sha512": "y7bMl29HvM4LyZeNsdLwJ4TRY2sJcmwwMFW2XLLi3EioCkFN6+Wp+NMkEpZDrPIWkQ1gxPKXnNNspZgS00VqgQ==",
+      "type": "package",
+      "path": "plugin.sqliteconnection/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Plugin.SQLiteConnection.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.SQLiteConnection.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.SQLiteConnection.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.SQLiteConnection.dll",
+        "lib/MonoAndroid10/Plugin.SQLiteConnection.pdb",
+        "lib/MonoAndroid10/Plugin.SQLiteConnection.xml",
+        "lib/MonoTouch10/Plugin.SQLiteConnection.Abstractions.dll",
+        "lib/MonoTouch10/Plugin.SQLiteConnection.Abstractions.pdb",
+        "lib/MonoTouch10/Plugin.SQLiteConnection.Abstractions.xml",
+        "lib/MonoTouch10/Plugin.SQLiteConnection.dll",
+        "lib/MonoTouch10/Plugin.SQLiteConnection.xml",
+        "lib/UAP10/Plugin.SQLiteConnection.Abstractions.dll",
+        "lib/UAP10/Plugin.SQLiteConnection.Abstractions.pdb/Plugin.SQLiteConnection.Abstractions.XML",
+        "lib/UAP10/Plugin.SQLiteConnection.Abstractions.xml",
+        "lib/UAP10/Plugin.SQLiteConnection.dll",
+        "lib/UAP10/Plugin.SQLiteConnection.pdb",
+        "lib/UAP10/Plugin.SQLiteConnection.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.SQLiteConnection.Abstractions.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.SQLiteConnection.Abstractions.pdb",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.SQLiteConnection.Abstractions.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.SQLiteConnection.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.SQLiteConnection.pdb",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.SQLiteConnection.xml",
+        "lib/win8/Plugin.SQLiteConnection.Abstractions.dll",
+        "lib/win8/Plugin.SQLiteConnection.Abstractions.pdb/Plugin.SQLiteConnection.Abstractions.XML",
+        "lib/win8/Plugin.SQLiteConnection.Abstractions.xml",
+        "lib/win8/Plugin.SQLiteConnection.dll",
+        "lib/win8/Plugin.SQLiteConnection.pdb",
+        "lib/win8/Plugin.SQLiteConnection.xml",
+        "lib/wp8/Plugin.SQLiteConnection.Abstractions.dll",
+        "lib/wp8/Plugin.SQLiteConnection.Abstractions.pdb/Plugin.SQLiteConnection.Abstractions.XML",
+        "lib/wp8/Plugin.SQLiteConnection.Abstractions.xml",
+        "lib/wp8/Plugin.SQLiteConnection.dll",
+        "lib/wp8/Plugin.SQLiteConnection.pdb",
+        "lib/wp8/Plugin.SQLiteConnection.xml",
+        "lib/wpa81/Plugin.SQLiteConnection.Abstractions.dll",
+        "lib/wpa81/Plugin.SQLiteConnection.Abstractions.pdb/Plugin.SQLiteConnection.Abstractions.XML",
+        "lib/wpa81/Plugin.SQLiteConnection.Abstractions.xml",
+        "lib/wpa81/Plugin.SQLiteConnection.dll",
+        "lib/wpa81/Plugin.SQLiteConnection.pdb",
+        "lib/wpa81/Plugin.SQLiteConnection.xml",
+        "plugin.sqliteconnection.1.0.0.nupkg.sha512",
+        "plugin.sqliteconnection.nuspec"
+      ]
+    },
+    "sqlite-net-pcl/1.1.1": {
+      "sha512": "MmFKwtN3SuqMcuBkqY5ynhphNvP9EDOUPJaPgJHiQypDUcz19TbLfJ4MiDBknwrWy/AHZHIyWjMKINqiIEp5Jw==",
+      "type": "package",
+      "path": "sqlite-net-pcl/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.dll.mdb",
+        "sqlite-net-pcl.1.1.1.nupkg.sha512",
+        "sqlite-net-pcl.nuspec"
+      ]
+    },
+    "SQLitePCL.raw/0.8.6": {
+      "sha512": "KTPjkmtwoQBfNE5E44bwWdTqjnSs9hJPeqbX7dPKlmhng2YYJqbm1EpdUdB6BdFxvBzTO9WeveEMYQiNDKWqFg==",
+      "type": "package",
+      "path": "sqlitepcl.raw/0.8.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid/SQLitePCL.raw.targets",
+        "build/MonoAndroid/pinvoke_packaged_sqlcipher/anycpu/SQLitePCL.raw.dll",
+        "build/MonoAndroid/pinvoke_packaged_sqlite3/anycpu/SQLitePCL.raw.dll",
+        "build/MonoAndroid/pinvoke_sqlite3/anycpu/SQLitePCL.raw.dll",
+        "build/Xamarin.Mac20/SQLitePCL.raw.targets",
+        "build/Xamarin.Mac20/pinvoke_packaged_sqlcipher/anycpu/SQLitePCL.raw.dll",
+        "build/Xamarin.Mac20/pinvoke_packaged_sqlite3/anycpu/SQLitePCL.raw.dll",
+        "build/Xamarin.Mac20/pinvoke_sqlite3/anycpu/SQLitePCL.raw.dll",
+        "build/Xamarin.iOS10/SQLitePCL.raw.targets",
+        "build/Xamarin.iOS10/pinvoke_packaged_sqlcipher/anycpu/SQLitePCL.raw.dll",
+        "build/Xamarin.iOS10/pinvoke_packaged_sqlite3/anycpu/SQLitePCL.raw.dll",
+        "build/Xamarin.iOS10/pinvoke_sqlite3/anycpu/SQLitePCL.raw.dll",
+        "build/native/sqlite3_dynamic/mac/libpackaged_sqlite3.dylib",
+        "build/native/sqlite3_dynamic/v110/arm/sqlite3.dll",
+        "build/native/sqlite3_dynamic/v110/x64/sqlite3.dll",
+        "build/native/sqlite3_dynamic/v110/x86/sqlite3.dll",
+        "build/native/sqlite3_dynamic/v110_wp80/arm/sqlite3.dll",
+        "build/native/sqlite3_dynamic/v110_wp80/x86/sqlite3.dll",
+        "build/native/sqlite3_dynamic/v110_xp/x64/sqlite3.dll",
+        "build/native/sqlite3_dynamic/v110_xp/x86/sqlite3.dll",
+        "build/native/sqlite3_dynamic/v120/arm/sqlite3.dll",
+        "build/native/sqlite3_dynamic/v120/x64/sqlite3.dll",
+        "build/native/sqlite3_dynamic/v120/x86/sqlite3.dll",
+        "build/native/sqlite3_dynamic/v120_wp81/arm/sqlite3.dll",
+        "build/native/sqlite3_dynamic/v120_wp81/x86/sqlite3.dll",
+        "build/native/sqlite3_dynamic/v140/arm/sqlite3.dll",
+        "build/native/sqlite3_dynamic/v140/x64/sqlite3.dll",
+        "build/native/sqlite3_dynamic/v140/x86/sqlite3.dll",
+        "build/net35/SQLitePCL.raw.targets",
+        "build/net40/SQLitePCL.raw.targets",
+        "build/net45/SQLitePCL.raw.targets",
+        "build/net45/pinvoke_packaged_sqlite3/anycpu/SQLitePCL.raw.dll",
+        "build/uap10.0/SQLitePCL.raw.targets",
+        "build/win8/SQLitePCL.raw.targets",
+        "build/win81/SQLitePCL.raw.targets",
+        "build/wp8/SQLitePCL.raw.targets",
+        "build/wp8/cppinterop_sqlite3_dynamic/arm/SQLitePCL.cppinterop.dll",
+        "build/wp8/cppinterop_sqlite3_dynamic/arm/SQLitePCL.cppinterop.winmd",
+        "build/wp8/cppinterop_sqlite3_dynamic/arm/SQLitePCL.raw.dll",
+        "build/wp8/cppinterop_sqlite3_dynamic/x86/SQLitePCL.cppinterop.dll",
+        "build/wp8/cppinterop_sqlite3_dynamic/x86/SQLitePCL.cppinterop.winmd",
+        "build/wp8/cppinterop_sqlite3_dynamic/x86/SQLitePCL.raw.dll",
+        "build/wp81/SQLitePCL.raw.targets",
+        "build/wp81/cppinterop_sqlite3_dynamic/arm/SQLitePCL.cppinterop.dll",
+        "build/wp81/cppinterop_sqlite3_dynamic/arm/SQLitePCL.cppinterop.pri",
+        "build/wp81/cppinterop_sqlite3_dynamic/arm/SQLitePCL.cppinterop.winmd",
+        "build/wp81/cppinterop_sqlite3_dynamic/arm/SQLitePCL.raw.dll",
+        "build/wp81/cppinterop_sqlite3_dynamic/x86/SQLitePCL.cppinterop.dll",
+        "build/wp81/cppinterop_sqlite3_dynamic/x86/SQLitePCL.cppinterop.pri",
+        "build/wp81/cppinterop_sqlite3_dynamic/x86/SQLitePCL.cppinterop.winmd",
+        "build/wp81/cppinterop_sqlite3_dynamic/x86/SQLitePCL.raw.dll",
+        "build/wpa81/SQLitePCL.raw.targets",
+        "lib/MonoAndroid/_._",
+        "lib/MonoTouch/SQLitePCL.raw.dll",
+        "lib/Xamarin.Mac20/_._",
+        "lib/Xamarin.iOS10/_._",
+        "lib/net35/SQLitePCL.raw.dll",
+        "lib/net40/SQLitePCL.raw.dll",
+        "lib/net45/SQLitePCL.raw.dll",
+        "lib/portable-net40+sl5+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCL.raw.dll",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCL.raw.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCL.raw.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCL.raw.dll",
+        "lib/portable-net45+sl5+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCL.raw.dll",
+        "lib/uap10.0/SQLitePCL.raw.dll",
+        "lib/uap10.0/SQLitePCL.raw.pri",
+        "lib/win8/SQLitePCL.raw.dll",
+        "lib/win8/SQLitePCL.raw.pri",
+        "lib/win81/SQLitePCL.raw.dll",
+        "lib/win81/SQLitePCL.raw.pri",
+        "lib/wp8/_._",
+        "lib/wp81/_._",
+        "lib/wpa81/SQLitePCL.raw.dll",
+        "lib/wpa81/SQLitePCL.raw.pri",
+        "sqlitepcl.raw.0.8.6.nupkg.sha512",
+        "sqlitepcl.raw.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
@@ -1241,6 +1559,7 @@
     "Xamarin.iOS,Version=v1.0": [
       "ButceApp >= 1.0.0",
       "OxyPlot.Xamarin.Forms >= 1.0.0",
+      "Plugin.SQLiteConnection >= 1.0.0",
       "Xamarin.Essentials >= 1.1.0",
       "Xamarin.Forms >= 4.0.0.425677"
     ]
@@ -1252,11 +1571,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\ButceApp\\ButceApp\\ButceApp\\ButceApp.iOS\\ButceApp.iOS.csproj",
+      "projectUniqueName": "C:\\Projects\\XamarinWalletApp\\ButceApp\\ButceApp.iOS\\ButceApp.iOS.csproj",
       "projectName": "ButceApp.iOS",
-      "projectPath": "C:\\Projects\\ButceApp\\ButceApp\\ButceApp\\ButceApp.iOS\\ButceApp.iOS.csproj",
+      "projectPath": "C:\\Projects\\XamarinWalletApp\\ButceApp\\ButceApp.iOS\\ButceApp.iOS.csproj",
       "packagesPath": "C:\\Users\\erhan.okumus\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\ButceApp\\ButceApp\\ButceApp\\ButceApp.iOS\\obj\\",
+      "outputPath": "C:\\Projects\\XamarinWalletApp\\ButceApp\\ButceApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1277,8 +1596,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Projects\\ButceApp\\ButceApp\\ButceApp\\ButceApp\\ButceApp.csproj": {
-              "projectPath": "C:\\Projects\\ButceApp\\ButceApp\\ButceApp\\ButceApp\\ButceApp.csproj"
+            "C:\\Projects\\XamarinWalletApp\\ButceApp\\ButceApp\\ButceApp.csproj": {
+              "projectPath": "C:\\Projects\\XamarinWalletApp\\ButceApp\\ButceApp\\ButceApp.csproj"
             }
           }
         }
@@ -1288,6 +1607,10 @@
       "xamarinios10": {
         "dependencies": {
           "OxyPlot.Xamarin.Forms": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "Plugin.SQLiteConnection": {
             "target": "Package",
             "version": "[1.0.0, )"
           },
@@ -1313,5 +1636,20 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 4.0.0.497661 to 4.0.0.425677. Reference the package directly from the project to select a different version. \r\n ButceApp.iOS -> ButceApp -> Xamarin.Forms (>= 4.0.0.497661) \r\n ButceApp.iOS -> Xamarin.Forms (>= 4.0.0.425677)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

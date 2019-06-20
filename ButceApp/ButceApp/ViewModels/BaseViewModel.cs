@@ -46,10 +46,10 @@ namespace ButceApp.ViewModels
         protected void OnPropertyChanged([CallerMemberName] string propertyName = "")
         {
             var changed = PropertyChanged;
-            if (changed == null)
-                return;
+            if (changed != null)
+                changed.Invoke(this, new PropertyChangedEventArgs(propertyName));
 
-            changed.Invoke(this, new PropertyChangedEventArgs(propertyName));
+
         }
         #endregion
     }

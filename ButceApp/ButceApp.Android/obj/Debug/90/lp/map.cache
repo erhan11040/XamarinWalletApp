@@ -1,4 +1,9 @@
+ButceApp
 FormsViewGroup
+OxyPlot
+OxyPlot.Xamarin.Android
+OxyPlot.Xamarin.Forms
+OxyPlot.Xamarin.Forms.Platform.Android
 System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Core.Runtime
@@ -44,8 +49,9 @@ Xamarin.Forms.Core
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
-ButceApp
-OxyPlot
-OxyPlot.Xamarin.Android
-OxyPlot.Xamarin.Forms
-OxyPlot.Xamarin.Forms.Platform.Android
+netstandard
+System.Reflection.Extensions
+Plugin.SQLiteConnection.Abstractions
+Plugin.SQLiteConnection
+SQLite-net
+SQLitePCL.raw

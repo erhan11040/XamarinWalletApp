@@ -1,0 +1,1 @@
+C:\Projects\XamarinWalletApp\ButceApp\ButceApp.UWP\ButceApp.UWP.csproj;x64
