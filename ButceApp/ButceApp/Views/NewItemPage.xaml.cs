@@ -31,6 +31,9 @@ namespace ButceApp.Views
         async void Save_Clicked(object sender, EventArgs e)
         {
             MessagingCenter.Send(this, "AddItem", Item);
+            //add item
+            DbManager db = new DbManager();
+            //db.Insert<>
             await Navigation.PopModalAsync();
         }
 

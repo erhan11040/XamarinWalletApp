@@ -752,7 +752,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\XamarinWalletApp\ButceApp\ButceApp\bin\Debug\netstandard2.0\ButceApp.dll">
       <PackagePath>ButceApp.dll</PackagePath>
-      <Modified>2019-06-20T14:50:25.079</Modified>
+      <Modified>2019-06-21T06:30:02.574</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erhan.okumus\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
